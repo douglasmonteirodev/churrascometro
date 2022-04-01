@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assets/fundo.png);
+    height: 100vh;
+    width: 100%;
+
+}
+
+#container {
+    border-radius: 50px;
+    padding: 75px 50px 50px;
+    margin: 40px auto auto auto;
+    width: 40vw;
+    height: 75vh;
+    background-color: rgba(255, 255, 255, 0.904);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+    font-family: 'Merienda';
+}
+
+header {
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+
+
+}
+
+.input {
+
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2.5%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 0.75vw;
+
+}
+
+button {
+    padding: 1%;
+    margin: 5px;
+    width: 25%;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+    font-family: 'Merienda', cursive;
+}
+
+h1 {
+    line-height: 50px;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #968a8a
+}
+
+#res {
+    margin-top: 10px;
+    font-size: 1.5vw;
+}
+
+.result {
+    width: 5%;
+}
